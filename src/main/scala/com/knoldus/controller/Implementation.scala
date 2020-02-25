@@ -30,6 +30,7 @@ class Square extends Shape{
    * @param breadth take breadth
    * @return area
    */
+
   override def getArea(length: Double, breadth: Double): Double = {
     if(length==breadth){
     length*breadth
